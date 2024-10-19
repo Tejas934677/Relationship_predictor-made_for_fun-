@@ -1,4 +1,4 @@
-for i in range(20) :
+def basic_code():
 
     def meaning(result):
 
@@ -42,9 +42,10 @@ for i in range(20) :
         print( "_" * 45, meaning(flames)   , "_"*45  )
 
     print("Welcome to the relastionship predictor\n(Not to take this as serious made just for fun )")
-    boy = ("raju")
-    girl =("ankitha ")
+    boy = (input("enter your boy  name "))
+    girl =(input("enter here girl name "))
     flames(boy, girl)
 
     print(f'The both {boy} and  {girl} belong to above this |^|\n \t\t CONGRATS {boy} ' )
         
+basic_code()
